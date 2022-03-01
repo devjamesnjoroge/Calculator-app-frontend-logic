@@ -145,3 +145,48 @@ header {
   color: black;
   border-bottom: 3px solid rgb(182, 252, 228);
 }
+
+@media screen and (max-width: 700px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container,
+  header,
+  .display-output,
+  .calc-btns-wrapper {
+    width: 80vw;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 850px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container,
+  header,
+  .display-output,
+  .calc-btns-wrapper {
+    width: 60vw;
+  }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1100px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container,
+  header,
+  .display-output,
+  .calc-btns-wrapper {
+    width: 50vw;
+  }
+}
