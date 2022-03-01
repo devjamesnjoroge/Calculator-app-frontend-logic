@@ -16,4 +16,80 @@ body {
   height: 80vh;
   width: 45vw;
   background-color: rgb(71, 13, 105);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container h2 {
+  color: #ffe701;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-logic {
+  display: flex;
+  width: 7rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-logic h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffe701;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+
+.nums {
+  color: #ffe701;
+  font-weight: 800;
+  font-size: small;
+  width: 48px;
+}
+
+.nums span:nth-child(2) {
+  margin-left: 8px;
+}
+
+.nums span:nth-child(3) {
+  margin-left: 8px;
+}
+
+.slider {
+  display: flex;
+  width: 42px;
+  justify-content: space-between;
+  height: 16px;
+  border-radius: 16px;
+  background-color: black;
+}
+
+.circles {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: rgb(17, 164, 201);
+  display: none;
+}
+
+#circ2 {
+  display: block;
+}
+
+.display-output {
+  height: 15vh;
+  width: 45vw;
+  background-color: rgb(63, 8, 56);
+}
+
+.calc-btns-wrapper {
+  height: 50vh;
+  width: 45vw;
+  background-color: rgb(63, 8, 56);
 }
