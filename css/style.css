@@ -15,7 +15,7 @@ body {
 
 .container {
   height: 95vh;
-  width: 45vw;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -69,6 +69,7 @@ header {
   height: 16px;
   border-radius: 16px;
   background-color: rgb(63, 8, 56);
+  cursor: move;
 }
 
 .circles {
@@ -85,14 +86,14 @@ header {
 
 .display-output {
   height: 15vh;
-  width: 45vw;
+  width: 40vw;
   background-color: rgb(63, 8, 56);
   border-radius: 10px;
 }
 
 .calc-btns-wrapper {
   height: 65vh;
-  width: 45vw;
+  width: 40vw;
   background-color: rgb(63, 8, 56);
   border-radius: 10px;
   display: grid;
