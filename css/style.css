@@ -92,6 +92,12 @@ header {
   width: 40vw;
   background-color: rgb(63, 8, 56);
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 30px;
+  color: #ffe701;
+  padding: 0 30px;
 }
 
 .calc-btns-wrapper {
@@ -169,7 +175,7 @@ header {
     height: 75vh;
   }
   .container {
-    height: 70vh;
+    height: 75vh;
     gap: 5px;
   }
 

@@ -1,21 +1,39 @@
-var nine = document.querySelector("#nine");
-var eight = document.querySelector("#eight");
-var seven = document.querySelector("#seven");
-var six = document.querySelector("#six");
-var five = document.querySelector("#five");
-var four = document.querySelector("#four");
-var three = document.querySelector("#three");
-var two = document.querySelector("#two");
-var one = document.querySelector("#one");
-var zero = document.querySelector("#zero");
-var ans = document.querySelector("#ans");
-var reset = document.querySelector("#reset");
-var dec = document.querySelector("#decimal");
-var multiply = document.querySelector("#multiply");
-var divide = document.querySelector("#divide");
-var plus = document.querySelector("#plus");
-var minus = document.querySelector("#minus");
+// get calculator buttons DOM elements
 
-var numbersArray = [zero, one, two, three, four, five, six, seven, eight, nine];
-var operatorsArray = [plus, minus, multiply, divide];
-var mainBtns = [reset, ans];
+var numbersArray = [
+  document.querySelector("#zero"),
+  document.querySelector("#one"),
+  document.querySelector("#two"),
+  document.querySelector("#three"),
+  document.querySelector("#four"),
+  document.querySelector("#five"),
+  document.querySelector("#six"),
+  document.querySelector("#seven"),
+  document.querySelector("#eight"),
+  document.querySelector("#nine"),
+  document.querySelector("#decimal"),
+];
+var operatorsArray = [
+  document.querySelector("#plus"),
+  document.querySelector("#minus"),
+  document.querySelector("#multiply"),
+  document.querySelector("#divide"),
+];
+var mainBtns = [
+  document.querySelector("#reset"),
+  document.querySelector("#ans"),
+  document.querySelector("#del"),
+];
+
+var output = document.getElementById("output");
+var outputVal = document.getElementById("output").value;
+
+// add click event listener to initialize functions
+
+numbersArray[0].addEventListener("click", function (event) {
+  output.append(0);
+});
+
+mainBtns[2].addEventListener("click", function (event) {
+  alert(outputVal);
+});
