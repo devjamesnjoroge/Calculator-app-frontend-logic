@@ -163,15 +163,29 @@ header {
 
 @media screen and (min-height: 650px) {
   body {
-    height: 85vh;
+    height: 75vh;
   }
   .container {
-    height: 70vh;
+    height: 60vh;
     gap: 5px;
   }
 
   .calc-btns-wrapper {
-    height: 40vh;
+    height: max-content;
+  }
+}
+
+@media screen and (max-height: 445px) {
+  body {
+    height: max-content;
+  }
+  .container {
+    height: 150vh;
+    gap: 5px;
+  }
+
+  .calc-btns-wrapper {
+    height: 120vh;
   }
 }
 
